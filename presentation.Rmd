@@ -268,6 +268,24 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 
 ## Simulation
 
+\begin{columns}
+  \begin{column}{0.57\textwidth}
+    A population based idea transmission model
+    \newline
+    \begin{figure}
+      \includegraphics{figures/sim_final_result_spatial.jpeg}
+    \end{figure}
+  \end{column}
+  \begin{column}{0.43\textwidth}
+    \begin{figure}
+      \includegraphics{figures/code_sample_II_relations_generation.jpg}
+    \end{figure}
+    \begin{figure}
+      \includegraphics{figures/code_sample_III_idea_generation.jpg}
+    \end{figure}
+  \end{column}
+\end{columns}
+
 ##
 
 \titlepage
