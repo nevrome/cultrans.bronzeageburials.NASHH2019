@@ -24,24 +24,11 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 ```
 
-## TOC
-
-\textblockcolour{mDarkTeal}
-
-\huge
-
-- Introduction to the data
-
-- Cultural Distance
-
-- Cultural and Spatial Distance
-
-- Simulating Cultural Transmission
-
-
-# Introduction
+# Time series of Bronze Age burial rites
 
 ## Radiocarbon Dates on Graves
+
+\textblockcolour{mDarkTeal}
 
 ![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic).](figures/general_map.jpeg){ height=85% }
 
@@ -158,7 +145,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-# Cultural Distance
+# Cultural and Spatial Distance
 
 ## Squared Euclidian Distance (SED)
 
@@ -219,28 +206,6 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-## Correlation of **Burial Type** and **Burial Construction** Distance
-
-\begin{adjustwidth}{-3em}{-3em}
-  \begin{figure}
-    \includegraphics{figures/squared_euclidian_distance_burial_type_vs_burial_construction.jpeg}
-    \caption{Correlation of \textbf{burial type} and \textbf{burial construction} mean SED in time slices of 200 years. \newline Each double point represents one region-region relationship.}
-  \end{figure}
-\end{adjustwidth}
-
-\begin{textblock*}{60pt}(290pt,130pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      The distances of \textbf{burial type} and \textbf{construction} do \textbf{not correlate} -- except maybe in the late Early Bronze Age
-    \end{minipage}}%
-\end{textblock*}
-
-
-
-# Cultural and Spatial Distance
-
 ## Spatial Distance Classes
 
 ![Spatial distance network and definition of distance classes](figures/general_map_distance_network.jpeg){ height=85% }
@@ -253,44 +218,6 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
       The definition of artificial regions as units of analysis makes distance measures difficult. \textbf{Ordinally scaled distance classes} are the only valid option here.
     \end{minipage}}%
 \end{textblock*}
-
-## Correlation of **Burial Type** and **Spatial** Distance
-
-\begin{adjustwidth}{-3em}{-3em}
-  \begin{figure}
-    \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_type.jpeg}
-    \caption{\textbf{burial type}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
-  \end{figure}
-\end{adjustwidth}
-
-\begin{textblock*}{60pt}(290pt,130pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Spatial distance is only relevant \textbf{before} the widespread transformation in the Middle Bronze Age starts
-    \end{minipage}}%
-\end{textblock*}
-
-## Correlation of **Burial Construction** and **Spatial** Distance
-
-\begin{adjustwidth}{-3em}{-3em}
-  \begin{figure}
-    \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_construction.jpeg}
-    \caption{\textbf{burial construction}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
-  \end{figure}
-\end{adjustwidth}
-
-\begin{textblock*}{60pt}(290pt,130pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Spatial distance is overall \textbf{more relevant} and again in the late Early Bronze Age significant
-    \end{minipage}}%
-\end{textblock*}
-
-# Distance Correlation Summary
 
 ## Time series of Distance Correlation
 
@@ -338,6 +265,8 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 - **Big phenomena** like the ones initiated by **Tumulus culture** and **Urnfield culture** do not spread in simple diffusion processes
 
 - **Other interaction networks** could yield better predictions: Elite Networks, Religious superstructures, ...
+
+## Simulation
 
 ##
 
