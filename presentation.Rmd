@@ -1,6 +1,6 @@
 ---
 title: "Evaluating Cultural Transmission in Bronze Age burial rites using radiocarbon data"
-subtitle: https://github.com/nevrome/cultrans.bronzeageburials.NASHH2019
+subtitle: github.com/nevrome/cultrans.bronzeageburials.NASHH2019
 author: "Clemens Schmid"
 date: "2019/05/14"
 fontsize: 9pt
@@ -267,11 +267,13 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 
 - **Other interaction networks** could yield better predictions: Elite Networks, Religious superstructures, ...
 
-## Simulation
+## Outlook: Simulating Cultural Transmission
 
 \begin{columns}
   \begin{column}{0.57\textwidth}
-    A population based idea transmission model
+    A \textbf{Population Graph based Style Transmission model} in R and C++
+    \newline
+    github.com/nevrome/popgen.styletrans.saa2019
     \newline
     \begin{figure}
       \includegraphics{figures/sim_final_result_spatial.jpeg}
