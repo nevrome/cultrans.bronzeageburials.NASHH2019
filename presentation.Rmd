@@ -24,9 +24,7 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 ```
 
-# Time series of Bronze Age burial rites
-
-## Radiocarbon Dates on Graves
+## Data: Radiocarbon Dates on Graves
 
 \textblockcolour{mDarkTeal}
 
@@ -60,7 +58,16 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{65pt}(295pt,100pt)
+## Dates on Graves through Time
+
+\begin{adjustwidth}{-3em}{-3em}
+  \begin{figure}
+    \includegraphics{figures/general_map_research_area_timeslices.jpeg}
+    \caption{Plot matrix of radiocarbon dates on graves through time.}
+  \end{figure}
+\end{adjustwidth}
+
+\begin{textblock*}{65pt}(295pt,210pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -69,14 +76,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-## Dates on Graves through Time
-
-\begin{adjustwidth}{-3em}{-3em}
-  \begin{figure}
-    \includegraphics{figures/general_map_research_area_timeslices.jpeg}
-    \caption{Plot matrix of radiocarbon dates on graves through time in the research area.}
-  \end{figure}
-\end{adjustwidth}
+# Regional time series of Bronze Age burial rites
 
 ## Artificial Macro-Regions
 
@@ -87,11 +87,11 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Divide and Conquer: Separation into eight \textbf{artificial regions} within the area of the highest data density
+      Separation into eight \textbf{artificial regions} within the area of the highest data density
     \end{minipage}}%
 \end{textblock*}
 
-## Development -- Absolute Numbers
+## Burial Rites: Development in absolute numbers
 
 \begin{columns}
   \begin{column}{0.48\textwidth}  
@@ -118,7 +118,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-## Development -- Proportions
+## Burial Rites: Development in relative proportions
 
 \begin{columns}
   \begin{column}{0.48\textwidth}
@@ -147,7 +147,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 # Cultural and Spatial Distance
 
-## Squared Euclidian Distance (SED)
+## Cultural Distance
 
 **Question:** How do the developments in these regions for **burial type** and **burial construction** relate to each other? Which regions behave alike?
 
@@ -163,7 +163,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 - $p_{ik}$: Relative frequency of the $k$'th variant in population $i$
 - $p_{jk}$: Relative frequency of the $k$'th variant in population $j$
 
-## Region-Region Distance Matrix
+## Cultural Distance
 
 ![SED timeseries for each region relationship. Approximated with LOESS. **burial type** on top, **burial construction** in the bottom left corner.](figures/regions_regions_squared_euclidian_distance.jpeg){ height=85% }
 
@@ -206,7 +206,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-## Spatial Distance Classes
+## Spatial Distance
 
 ![Spatial distance network and definition of distance classes](figures/general_map_distance_network.jpeg){ height=85% }
 
@@ -219,9 +219,9 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-## Time series of Distance Correlation
+## Correlation of Cultural and Spatial Distance
 
-![Time series of cultural and spatial distance correlation.](figures/correlation_time_series.jpeg){ height=85% }
+![Time series of cultural and spatial distance correlation. Mantel statistics with Pearson's correlation coefficient and Spearman's rank correlation.](figures/correlation_time_series.jpeg){ height=85% }
 
 \begin{textblock*}{50pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
