@@ -54,7 +54,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 \textblockcolour{}
 
 \begin{textblock*}{65pt}(290pt,40pt)
-  \includegraphics{figures/burial_rites_clipart.png}
+  \includegraphics{figures/burial_rites_clipart.jpg}
 \end{textblock*}
 
 \textblockcolour{mDarkTeal}
