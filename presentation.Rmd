@@ -1,8 +1,8 @@
 ---
-title: "Quantitative analysis of cultural trait development"
-subtitle: Evaluating Cultural Transmission in Bronze Age burial rites of Central, Northern and North-western Europe using radiocarbon data
+title: "Evaluating Cultural Transmission in Bronze Age burial rites using radiocarbon data"
+subtitle: https://github.com/nevrome/cultrans.bronzeageburials.NASHH2019
 author: "Clemens Schmid"
-date: "2019/04/16"
+date: "2019/05/14"
 fontsize: 9pt
 output:
   beamer_presentation:
