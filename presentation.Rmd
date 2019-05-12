@@ -150,7 +150,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 ## Measuring cultural distance
 
-**Question:** How do the developments in these regions for **burial type** and **burial construction** relate to each other? Which regions behave alike?
+How do the developments in these regions for **burial type** and **burial construction** relate to each other? Which regions behave alike? Can we measure spatial **interaction intensity**?
 
 \usebeamertemplate*{title separator}
 
