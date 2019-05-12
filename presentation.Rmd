@@ -49,14 +49,13 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{65pt}(295pt,40pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Context for dates from graves: \textbf{burial type} \& \textbf{burial construction}
-    \end{minipage}}%
+\textblockcolour{}
+
+\begin{textblock*}{65pt}(290pt,40pt)
+  \includegraphics{figures/burial_rites_clipart.png}
 \end{textblock*}
+
+\textblockcolour{mDarkTeal}
 
 ## Dates on Graves through Time
 
