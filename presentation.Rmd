@@ -53,7 +53,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 \textblockcolour{}
 
-\begin{textblock*}{65pt}(10pt,40pt)
+\begin{textblock*}{65pt}(5pt,40pt)
   \includegraphics{figures/burial_rites_clipart.jpg}
 \end{textblock*}
 
@@ -64,11 +64,13 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/general_map_research_area_timeslices.jpeg}
-    \caption{Plot matrix of radiocarbon dates on graves through time.}
+    \caption{Plot matrix of radiocarbon dates on graves through time. \newline 
+    200 years time slices.
+    }
   \end{figure}
 \end{adjustwidth}
 
-\begin{textblock*}{65pt}(295pt,210pt)
+\begin{textblock*}{65pt}(290pt,210pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -77,7 +79,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-# Time series of Bronze Age burial rites
+# Regional time series of Bronze Age burial rites
 
 ## Artificial macro-regions
 
@@ -179,6 +181,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 \end{textblock*}
 
 \begin{textblock*}{65pt}(5pt,170pt)
+  \textblockcolour{burialconstruction}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -189,6 +192,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 \end{textblock*}
 
 \begin{textblock*}{65pt}(295pt,40pt)
+  \textblockcolour{burialtype}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -213,34 +217,43 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 
 ## The complete distance network: Correlation of cultural and spatial distance
 
-![Time series of cultural and spatial distance correlation. Mantel statistics with Pearson's correlation coefficient and Spearman's rank correlation.](figures/correlation_time_series.jpeg){ height=85% }
+![Time series of cultural and spatial distance correlation. 200 years time slots. Mantel statistics with Pearson correlation coefficient and Spearman's rank correlation.](figures/correlation_time_series.jpeg){ height=85% }
 
-\begin{textblock*}{50pt}(10pt,40pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      \textbf{A:} Weak correlation in the EBA, negative 
-      correlation from the LBA
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{50pt}(10pt,120pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      \textbf{B:} Slightly stronger correlation in the EBA, no
-      correlation in the LBA 
-    \end{minipage}}%
-\end{textblock*}
+\textblockcolour{burialtype}
 
 \begin{textblock*}{50pt}(305pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      \textbf{C\&D:} No significant correlation 
+      \textbf{A:} burial type \& spatial distance \newline \newline
+      Weak correlation in the EBA, negative 
+      correlation from the MBA
+    \end{minipage}}%
+\end{textblock*}
+
+\textblockcolour{burialconstruction}
+
+\begin{textblock*}{50pt}(10pt,130pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      \textbf{B:} burial construction \& spatial distance \newline \newline
+      Weak correlation in the EBA, no
+      correlation in the LBA 
+    \end{minipage}}%
+\end{textblock*}
+
+\textblockcolour{mDarkTeal}
+
+\begin{textblock*}{50pt}(10pt,40pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      \textbf{C\&D:} burial type \& burial construction distance \newline \newline
+      No significant correlation 
     \end{minipage}}%
 \end{textblock*}
 
