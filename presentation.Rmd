@@ -26,13 +26,13 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 # Introduction
 
-## Radiocarbon dates on graves
+## Radiocarbon dates on graves with context information (2200-800 calBC)
 
 \textblockcolour{mDarkTeal}
 
 ![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic).](figures/general_map.jpeg){ height=85% }
 
-\begin{textblock*}{65pt}(5pt,40pt)
+\begin{textblock*}{65pt}(290pt,40pt)
   \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
@@ -42,7 +42,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{65pt}(5pt,100pt)
+\begin{textblock*}{65pt}(290pt,100pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -53,7 +53,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 \textblockcolour{}
 
-\begin{textblock*}{65pt}(290pt,40pt)
+\begin{textblock*}{65pt}(10pt,40pt)
   \includegraphics{figures/burial_rites_clipart.jpg}
 \end{textblock*}
 
@@ -77,7 +77,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-# Regional time series of Bronze Age burial rites
+# Time series of Bronze Age burial rites
 
 ## Artificial macro-regions
 
@@ -164,7 +164,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 - $p_{ik}$: Relative frequency of the $k$'th variant in population $i$
 - $p_{jk}$: Relative frequency of the $k$'th variant in population $j$
 
-## Cultural distance matrix
+## Two matrices of cultural distance development
 
 ![SED timeseries for each region relationship. Approximated with LOESS. **burial type** on top, **burial construction** in the bottom left corner.](figures/regions_regions_squared_euclidian_distance.jpeg){ height=85% }
 
@@ -178,7 +178,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{65pt}(5pt,140pt)
+\begin{textblock*}{65pt}(5pt,170pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -193,17 +193,8 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      \textbf{burial type}:
-      Low distance at the start and end due to the \textbf{universal shift from inhumation to cremation} with rise of the \textbf{Urnfield culture}
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{65pt}(295pt,140pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      The different \textbf{adoption rates} are visible as \textbf{peaks of cultural distance}
+      \textbf{burial type}: \newline
+      Low distance at the start and end due to the \textbf{universal shift from inhumation to cremation} (Urnfield culture)
     \end{minipage}}%
 \end{textblock*}
 
@@ -211,16 +202,16 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 
 ![Spatial distance network and definition of distance classes](figures/general_map_distance_network.jpeg){ height=85% }
 
-\begin{textblock*}{100pt}(15pt,50pt)
+\begin{textblock*}{100pt}(25pt,50pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      The definition of artificial regions as units of analysis makes distance measures difficult. \textbf{Ordinally scaled distance classes} are the only valid option here.
+      \textbf{Ordinally scaled distance classes} for the spatial distance matrix
     \end{minipage}}%
 \end{textblock*}
 
-## Correlation of cultural and spatial distance
+## The complete distance network: Correlation of cultural and spatial distance
 
 ![Time series of cultural and spatial distance correlation. Mantel statistics with Pearson's correlation coefficient and Spearman's rank correlation.](figures/correlation_time_series.jpeg){ height=85% }
 
